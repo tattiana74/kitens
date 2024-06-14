@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="./public/font/css/font-awesome.min.css"
+    />
+    <link rel="icon" href="./public/img/logo2.png">
+</head>
+<body>
+  <header class="sapo" style="display: flex">
+    <div class="sapo">
+      <img src="./public/img/logo.jpg" alt="logo de la pagina" />
+      <div>
+        <h2>Kitens</h2>
+        <label>Como llegaron a mi vida</label>
+      </div>
+    </div>
+    <nav>
+      <ul>
+          <a href="./index.html" class="nav.link"> Inicio</a>
+          <a href="./manchitas.html" class="nav.link"> Manchitas</a>
+          <a href="./bolita.html" class="nav.link">Bolita </a>
+          <a href="./estrellita.html" class="nav.link">Estrellita </a>
+          <a href="./contactame.html" class="nav.link"><span>Contactame</span> </a>
+      </ul>
+    </nav>
+  </header>
+  <section class="section-contactame">
+    <div>
+      <div>
+        <h2>Contactame</h2>
+        <label> Deja tu mensaje si deceas conocer más acerca de mis<br>mis gatitas :)</label>
+      </div>
+      <form action=""method = "get">
+        <label for="nombre ">Nombre completo: </label>
+        <input type="text" name="nombre" id = "nombre" placeholder = "Escribe tu nombre completo" >
+        <br>
+        <label for="correo">correo: </label>
+        <input type="text" name="correo" id = "correo" placeholder = "Escribe tu correo" >
+        <br>
+        <label for="mensaje">Escribe aquí tu mensaje:</label>
+        <br> 
+        <input type="submit" onclick="mifuncion" value="Enviar">
+      </form>
+      <br>
+      <button onclick="alerta()"> Validar</button>
+      <script> 
+        function alerta() {
+          alert('Tu mensaje ha sido enviado exitosamente, gracias por interactuar con nosotros :)');
+        }
+      </script>
+    </div>
+  </section>
+  <footer>
+    <div>
+      <h2>@KITTENS_90</h2>
+      <div>
+        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        <a href="https://www.facebook.com/Angela Tattiana">Angela Tattiana</a>
+      </div>
+      <div>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <a href="https://www.instagram.com/ta_ttiana_527z">Angela Tattiana</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
