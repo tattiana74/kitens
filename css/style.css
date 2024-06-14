@@ -1,0 +1,122 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background: rgba(128, 128, 128, 0.13);
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  box-shadow: 0px 0px 3px 0px rgba(201, 191, 191, 0.699);
+  background-color: #fff;
+}
+header div {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+}
+header div div {
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+header div div h2 {
+  font-size: 20px;
+}
+header div div label {
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.918);
+}
+div img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 5px;
+}
+header nav {
+  padding: 5px;
+  width: 100%;
+}
+header nav ul {
+  float: right;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+header nav ul a {
+  margin: 5px;
+  text-decoration: none;
+  color: black;
+}
+header nav ul a span {
+  background-color: #bd7aff;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+header nav ul a span:hover {
+  background-color: #ac5afd;
+}
+header nav ul a:hover {
+  color: #bd7aff;
+  border-bottom: 1px solid #bd7aff;
+}
+
+
+
+
+/* SECTION */
+.secction-home{
+    background-color: #bd7aff;
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://i.gifer.com/PlI.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.secction-home div{
+    color: #fff;
+    width: 50%;
+    top: 30px;
+    left: 40px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.116);
+    padding: 5px;
+    border-radius: 5px;
+}.secction-home div h1{
+    margin-bottom: 10px;
+    font-size: 3em;
+}.secction-home div p{
+ color: #e7e6e6;
+ line-height: 1.825;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+footer div{
+    margin: 20px;
+    display: block;
+    background-color: rgb(231, 230, 230);
+  
+}footer div div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}footer div div a{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+}

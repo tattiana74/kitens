@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contactame</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/contactame.css" />
     <link
       rel="stylesheet"
       href="./public/font/css/font-awesome.min.css"
@@ -14,7 +14,7 @@
 <body>
   <header class="sapo" style="display: flex">
     <div class="sapo">
-      <img src="./public/img/logo.jpg" alt="logo de la pagina" />
+      <img class="img2" src="./public/img/logo.jpg" alt="logo de la pagina" />
       <div>
         <h2>Kitens</h2>
         <label>Como llegaron a mi vida</label>
@@ -30,30 +30,33 @@
       </ul>
     </nav>
   </header>
-  <section class="section-contactame">
+  <section class="secction-contactame">
     <div>
       <div>
         <h2>Contactame</h2>
         <label> Deja tu mensaje si deceas conocer más acerca de mis<br>mis gatitas :)</label>
       </div>
-      <form action=""method = "get">
-        <label for="nombre ">Nombre completo: </label>
-        <input type="text" name="nombre" id = "nombre" placeholder = "Escribe tu nombre completo" >
-        <br>
-        <label for="correo">correo: </label>
-        <input type="text" name="correo" id = "correo" placeholder = "Escribe tu correo" >
-        <br>
-        <label for="mensaje">Escribe aquí tu mensaje:</label>
-        <br> 
-        <input type="submit" onclick="mifuncion" value="Enviar">
-      </form>
       <br>
-      <button onclick="alerta()"> Validar</button>
-      <script> 
-        function alerta() {
-          alert('Tu mensaje ha sido enviado exitosamente, gracias por interactuar con nosotros :)');
-        }
-      </script>
+      <br>
+      <form action=""method = "get">
+        <div class="perro">
+        <div class="campo1"></div><label for="nombre ">Nombre completo: </label>
+        <br>
+        <input class=" camp1" type="text" name="nombre" id = "nombre" placeholder = "Escribe tu nombre completo" >
+        <br>
+        <div class="campo2"></div><label for="correo">correo: </label>
+        <br>
+        <input class=" camp2"type="text" name="correo" id = "correo" placeholder = "Escribe tu correo" >
+        <br>
+        <div class="campo3"></div><label for="mensaje">Escribe aquí tu mensaje:</label>
+        <br>
+        <input  class=" camp3" type="text" name="mensaje" id=" mensaje" placeholder=" Escribe tu mensaje">
+        <br> 
+        <input class="enviar" type="submit" onclick="mifuncion" value="Enviar">
+        </div>
+      </form>
+      <div class="imgs"> <img src="./public/img/gatas.png" width="500px" alt=""></div>
+      
     </div>
   </section>
   <footer>
